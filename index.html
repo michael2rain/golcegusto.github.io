@@ -445,7 +445,37 @@
             <p class="subtitle has-text-centered is-6">© 2020 Nestlé. Todos los derechos se encuentran reservados.</p>
         </div>
     </footer>
-    <script src="/js/index.js"></script>
+       <!--Desplazamiento Suave-->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <!-- Modal -->
+    <script>
+        const videoButton = document.querySelector('#video-button');
+        const modalBg = document.querySelector('.modal-background');
+        const closeModal = document.querySelector('.delete');
+        const modal = document.querySelector('.modal');
+
+        videoButton.addEventListener('click', () => {
+            modal.classList.add('is-active');
+        });
+
+        modalBg.addEventListener('click', () => {
+            modal.classList.remove('is-active');
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.remove('is-active');
+        });
+    </script>
 </body>
 
 </html>
