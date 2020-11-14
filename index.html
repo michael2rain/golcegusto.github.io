@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Wortev/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/519f3b3b49.js" crossorigin="anonymous"></script>
+    <title>Nescafé - Dolce Gusto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar has-shadow is-white is-fixed-top is-spaced">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="../Wortev/img/logo.png" width="112" height="28" alt="Logo Nescafé">
+                </a>
+                <a role="button" class="navbar-burger burger"
+                    onclick="document.querySelector('.navbar-menu').classList.toggle('is-active'); document.querySelector('.navbar-burger').classList.toggle('is-active');">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div id="navbar-menu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#inicio" class="navbar-item">Inicio</a>
+                    <a href="#experiencias" class="navbar-item">Experiencias</a>
+                    <a href="#historias" class="navbar-item">Historias</a>
+                </div>
+                <div class="navbar-end">
+                    <hr class="navbar-divider">
+                    <div class="navbar-item">
+                        <a href="#comprar" class="button is-black is-rounded">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Comienza el contenido de la página. -->
+    <section id="inicio" class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container py-4">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <div class="content is-medium">
+                            <h1 class="is-size-1 title">Genio 2</h1>
+                            <h2 class="subtitle is-size-3-desktop is-size-4-mobile">Dolce Gusto edición limitada.</h2>
+                            <p class="is-size-5-mobile is-size-4-desktop padding-bottom pb-4">It is a long established
+                                fact that a reader will be distracted by the readable content of a page when looking at
+                                its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                distribution of letters, as opposed to using.</p>
+                            <a href="#experiencias"
+                                class="button is-medium is-hidden-mobile is-black is-outlined is-rounded"> Conoce
+                                más</a>
+                            <a href="#experiencias" class="button is-hidden-tablet is-black is-outlined is-rounded">
+                                Conoce
+                                más</a>
+                        </div>
+                    </div>
+                    <hr class="is-hidden-tablet">
+                    <div class="column">
+                        <figure class="image is-squere">
+                            <img src="../Wortev/img/productos/producto.png" alt="Cafetera Genio S">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cintillo de características. -->
+    <section class="hero is-light is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="content is-small">
+                    <h3 class="is-size-2 is-size-3-mobile">Todo el sabor del café gourmet en casa</h3>
+                    <p class="subtitle is-size-6-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+                        sapiente
+                        quibusdam commodi maiores, illo dolore minus nesciunt natus? Molestiae repudiandae architecto
+                        sequi consectetur, accusamus quis dignissimos qui eius vero omnis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Características y testimoniales #1: -->
+    <section id="experiencias" class="section">
+        <div class="container py-4">
+            <div class="columns is-vcentered">
+                <div class="column"><img src="../Wortev/img/productos/productos_coffe.png" alt=""></div>
+                <div class="column">
+                    <h2 class="title is-2 is-spaced">Experiencias únicas en
+                        cada taza</h2>
+                    <p class="subtitle is-4 is-size-5-mobile">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusamus dolor
+                        eveniet consequatur totam explicabo, reiciendis quasi quos id quis sunt, quaerat fugit maxime
+                        libero numquam hic nihil! Maiores, corporis odit.</p>
+                    <button id="video-button" class="button is-medium is-black is-rounded" href="#">
+                        <span class="icon"><i class="far fa-play-circle"></i></span>
+                        <span>Ver en acción</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Características: -->
+        <hr class="my-6 is-hidden-tablet">
+        <div class="container py-4">
+            <div class="columns is-vcentered">
+                <div class="column has-text-left">
+                    <h2 class="title is-2 has-text-right-mobile is-spaced">El
+                        café gourmet nunca fue tan fácil.</h2>
+                    <p class="subtitle is-4 is-size-5-mobile has-text-right-mobile">Lorem ipsum dolor sit, amet
+                        consectetur adipisicing
+                        elit.
+                        Numquam maxime libero,
+                        ullam sequi soluta molestiae molestias sunt corporis suscipit.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="../Wortev/img/productos/producto-feature.jpg" alt="Dolce Gusto Genio 2">
+                </div>
+            </div>
+        </div>
+        <!-- Grid de redes sociales #3: -->
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-third">
+                    <!-- Tarejeta de Twitter #1 -->
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">
+                                “Lo que mas me gusta de mi cafetera es que volvio a reunir a mis amigos y familiares
+                                desde casa. ¡Un buen café nunca falta!”
+                            </p>
+                            <p class="subtitle">
+                                Luis Rodriguéz
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    Ver en <a href="https://twitter.com/">Twitter</a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    Compartir en <a href="#">Facebook</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                    <!-- Tarjeta de twitter #2 -->
+                    <div class="card mt-5">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="../Wortev/img/twitter-1.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="../Wortev/img/personas/img-2.jpg" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Manuel Herrera</p>
+                                    <p class="subtitle is-6">@mtherrera</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris. <a>@dolce_gusto</a>.
+                                <a href="#">#HomeOffice</a> <a href="#">#espresso</a>
+                                <br>
+                                <time datetime="2016-1-1">11:09 PM - 5 Nov 2020</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="../Wortev/img/productos/recargable.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="../Wortev/img/personas/img-1.jpg" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Beatriz Chavarria</p>
+                                    <p class="subtitle is-6">@bgchavarria</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur labore sed ipsum
+                                voluptatem, Lorem ipsum dolor sit amet consectetur. <a>@dolce_gusto</a>.
+                                <a href="#">#happyday</a> <a href="#">#cafe</a>
+                                <time datetime="2016-1-1">11:09 PM - 30 Oct 2020</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comienza sección de compra. -->
+    <section id="comprar" class="section is-large">
+        <div class="container is-shadow">
+            <div class="columns is-desktop is-vcentered">
+                <div class="column is-6-desktop"><img src="../Wortev/img/productos/producto-final.png" alt=""></div>
+                <div class="column is-6-desktop px-5">
+                    <h2 class="title is-size-1-desktop is-size-2-mobile is-spaced">Genio 2 + Espresso Intenso y Latte
+                        Macchiato</h2>
+                    <p class="subtitle is-size-5-mobile">Aprovecha la promoción y llevate dos paquetes de capsulas
+                        <strong>Dolce
+                            Gusto</strong>, en sabor
+                        Espresso Intenso y Latte Macchiato sin costo extra.</p>
+                    <!-- Comienza el formulario de contacto. -->
+                    <div class="column px-1">
+                        <div class="box">
+                            <div class="columns">
+                                <div class="column">
+                                    <label class="label">Nombre:</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Nombre completo.">
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <label class="label">Apellido:</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Coloque su apellido.">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column">
+                                    <label class="label">E-Mail:</label>
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input" type="email" placeholder="Email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="column">
+                                    <label class="label">Número de Teléfono:</label>
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input" type="tel" placeholder="+52 55 555 555">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Acepto y he leeído los <a href="#">terminos y condiciones del servicio.</a>
+                                </label>
+                            </div>
+                            <div class="level">
+                                <button class="button is-success is-rounded is-medium">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Sección de blog modal. -->
+    <section id="historias" class="hero is-small">
+        <div class="hero-body">
+            <div class="content is-medium">
+                <h2 class="title is-size-1-desktop is-size-3-mobile is-spaced has-text-centered">Historias con olor a café</h2>
+                <p class="subtitle is-4 is-size-5-mobile has-text-centered">Descubre los sabores del mundo desde casa
+                    con tu
+                    <strong>Dolce
+                        Gusto Genio</strong>.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container py-4">
+            <div class="columns is-multiline">
+                <div class="column is-12 is-4-desktop">
+                    <div class="card" style="height: 100%">
+                        <div class="card-image"><a href="#"><img src="../Wortev/img/post/post-0.jpg" alt=""></a></div>
+                        <div class="card-content">
+                            <span class="is-size-7">9 Nov 2020</span>
+                            <h5 class="title is-5"><a href="#">Disfruto de un café turco como si estuviera en
+                                    Stambul.</a></h5>
+                            <button class="button is-rounded" href="#">
+                                <span>Leer más</span>
+                                <span class="icon"><i class="fas fa-arrow-circle-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-12 is-4-desktop">
+                    <div class="card" style="height: 100%">
+                        <div class="card-image"><a href="#"><img src="../Wortev/img/post/post-1.jpg" alt=""></a></div>
+                        <div class="card-content">
+                            <span class="is-size-7">31 Oct 2020</span>
+                            <h5 class="title is-5"><a href="#">Los secretos de despertar siempre con la mejor
+                                    actitud.</a></h5>
+                            <button class="button is-rounded" href="#">
+                                <span>Leer más</span>
+                                <span class="icon"><i class="fas fa-arrow-circle-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-12 is-4-desktop">
+                    <div class="card" style="height: 100%">
+                        <div class="card-image"><a href="#"><img src="../Wortev/img/post/post-2.jpg" alt=""></a></div>
+                        <div class="card-content">
+                            <span class="is-size-7">14 Octubre 2020</span>
+                            <h5 class="title is-5"><a href="#">Cenar en casa con amigos y un cafe es lo único que puedo
+                                    pedir.</a></h5>
+                            <button class="button is-rounded" href="#">
+                                <span>Leer más</span>
+                                <span class="icon"><i class="fas fa-arrow-circle-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de preguntas frecuentes. -->
+    <section class="section">
+        <div class="container py-4">
+            <h2 class="title is-size-3-mobile has-text-centered mb-6">Preguntas Frecuentes</h2>
+            <div class="mb-6">
+                <div class="card block">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64"><img src="../Wortev/img/assets/tiempo.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <h3 class="title is-4">¿Cuanto tiempo tarda en llegar mi pedido?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet, labore
+                                    laudantium qui autem ipsum, veniam quaerat a corrupti vero vel nihil voluptatem,
+                                    temporibus vitae dolorum accusantium repellendus voluptatum neque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card block">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64"><img src="../Wortev/img/assets/pagos.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <h3 class="title is-4">¿Que métodos de pago estan disponibles?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam deserunt
+                                    provident autem, sit, sed et nostrum praesentium, voluptatem facilis optio illum
+                                    error modi ducimus perferendis quam maxime aliquid ab repellendus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card block">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64"><img src="../Wortev/img/assets/cp.png" alt=""></figure>
+                            </div>
+                            <div class="media-content">
+                                <h3 class="title is-4">¿LLegan a mi código postal?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et dolores
+                                    tempore iusto numquam sunt necessitatibus placeat alias, at nemo repellat architecto
+                                    blanditiis. Magnam animi voluptatem recusandae, dicta sed facilis?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card block">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64"><img src="../Wortev/img/assets/tiendas.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <h3 class="title is-4">¿En que tiendas puedo comprar capsulas de recarga?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde odio explicabo
+                                    eveniet perspiciatis sed debitis repellendus, in quidem enim iste excepturi
+                                    reiciendis nam perferendis maxime. Sequi, quia! Quia, similique?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons is-centered"><a class="button is-rounded" href="#comprar">Hacer una pregunta</a></div>
+        </div>
+        <!-- Mensaje de politica de cookies -->
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">¿Cómo funciona?</p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed//dbjx8--sH6s'
+                            frameborder='0' allowfullscreen></iframe></div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- Finaliza contenido y comienza FOOTER. -->
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4 has-text-centered is-hidden-tablet"><a class="title is-4" href="#">Dolce
+                        Gusto</a></div>
+                <div class="column is-4">
+                    <div class="level"><a class="level-item" href="#inicio">Inicio</a><a class="level-item"
+                            href="#experiencias">Experiencias</a></div>
+                </div>
+                <div class="column is-4 has-text-centered is-hidden-mobile">
+                    <figure class="image image is-64x64 center-logo">
+                        <img src="../Wortev/img/dolce_gusto.png" alt="Dolce Gusto Logo">
+                    </figure>
+                </div>
+                <div class="column is-4 has-text-right">
+                    <div class="level"><a class="level-item" href="#historias">Historias</a><a class="level-item"
+                            href="#comprar">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <p class="subtitle has-text-centered is-6">© 2020 Nestlé. Todos los derechos se encuentran reservados.</p>
+        </div>
+    </footer>
+    <script src="../Wortev/js/index.js"></script>
+</body>
+
+</html>
